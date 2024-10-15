@@ -1,0 +1,30 @@
+{
+  "name": "atomicwallet",
+  "version": "1.0.0",
+  "description": "--- Tech Spec: https://docs.google.com/document/d/1OsqqYi-dEp21NkI6BQzWm33aE0pw0kXhLvwSiEcBXPg/edit#heading=h.qv1cjj2q1wuf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRODCREATORS/atomic-wallet-smart-contract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PRODCREATORS/atomic-wallet-smart-contract/issues"
+  },
+  "homepage": "https://github.com/PRODCREATORS/atomic-wallet-smart-contract#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/hardhat-upgrades": "^2.1.0",
+    "hardhat": "^2.17.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.2",
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
+    "dotenv": "^16.3.1"
+  }
+}
